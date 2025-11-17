@@ -11,7 +11,7 @@ export const title = "Simple Footer";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-primary-foreground rounded-4xl py-20">
+    <footer className="w-full bg-primary-foreground rounded-4xl py-20 my-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col gap-8 items-center">
           <Logo className="text-muted" />

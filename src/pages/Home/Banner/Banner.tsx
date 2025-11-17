@@ -13,7 +13,7 @@ import Autoplay from "embla-carousel-autoplay";
 import CtaBtn from "@/components/ui/CtaBtn";
 import { Link } from "react-router";
 
-const EmblaCarousel = () => {
+const Banner = () => {
   return (
     <Carousel
       opts={{ loop: true, containScroll: "trimSnaps" }}
@@ -43,7 +43,7 @@ const EmblaCarousel = () => {
   );
 };
 
-export default EmblaCarousel;
+export default Banner;
 
 export const HeroCta = () => {
   return (

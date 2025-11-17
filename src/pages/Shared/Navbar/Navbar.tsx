@@ -1,5 +1,5 @@
 import Logo from "@/components/Logo/Logo";
-import { Navbar01 } from "@/components/ui/shadcn-io/navbar-01";
+import { Navbar01 } from "@/components/ui/shadcn-io/navbar-01/navbar01";
 const Navbar = () => {
   const navigationLinks = [
     {
